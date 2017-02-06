@@ -1,34 +1,19 @@
-<% if logged_in? %>
-  <div class="row">
-    <aside class="col-md-4">
-      <section class="user_info">
-        <%= render 'shared/user_info' %>
-      </section>
-      <section class="stats">
-        <%= render 'shared/stats' %>
-      </section>
-      <section class="micropost_form">
-        <%= render 'shared/micropost_form' %>
-      </section>
-    </aside>
-    <div class="col-md-8">
-      <h3>Micropost Feed</h3>
-      <%= render 'shared/feed' %>
-    </div>
-  </div>
-<% else %>
   <div class="center jumbotron">
-    <h1>Welcome to the Sample App</h1>
-
+    <h1>Moving On:<br> Computational Creativity</h1>
+<br><br>
+<!--<img src=/assets/katie.jpg alt="Picture" /> -->
     <h2>
-      This is the home page for the
-      <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-      sample application.
+      <p>Moving on is a PhD project aiming to determine whether computational creativity can be used positively in response to the end of a relationship - primarily the death of a loved one. With death being ever present, technology permeating modern society, and the rise of computational creativity, it is only natural to look towards computer generated artefacts to help ease the process of losing a loved one. 
+      <br><br>
+      The purpose of this PhD is to better understand how technology can be used to help people cope with the human condition. Whether and how creative systems can be used to help people navigate grief, and whether it can be used to help solidify bonds to those lost
+      </p>
+  <ul>
+  <li>Ending of Relationships</li>
+  <br>
+  <li>Grief</li>
+  <br>
+  <li>Creative Computers</li>
+  </ul> 
     </h2>
 
-    <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
-  </div>
-
-  <%= link_to image_tag("rails.png", alt: "Rails logo"),
-              'http://rubyonrails.org/' %>
-<% end %>
+</div>
