@@ -55,6 +55,65 @@ p {
   font-size: 1.1em;
   line-height: 1.7em;
 }
+/* Navagation Bar */
+#myNavbar{
+    background-color: #021524;
+    background-size: 100% ;
+    width: 100%;
+    height: 100%;
+    opacity: 100%;
+    padding-right: 20px;
+    padding: 0.8em;
+    font-family:"Segoe UI";
+    color: #021524;
+    text-transform: uppercase;
+    
+}
+
+#myNavbar a {
+    color: #021524;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    background-color: #021524;
+    background-size: 100% ;
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    font-size: 15px;
+	font-family:"Segoe UI";
+	text-transform: uppercase;
+}
+
+
+.navbar-fixed-top {
+	text-align: right;
+	height: auto;
+	font-size: 10px;
+    max-width: 100%;
+    font-family:"Segoe UI";
+    color: #010916;
+
+}
+
+
+
+.navbar-brand {
+	background-color: #021524;
+	text-align: right;
+	height: auto;
+	font-size: 10px;
+    max-width: 100%;
+	opacity: 0.8
+
+
+}
+
 
 /* header */
 
