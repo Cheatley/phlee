@@ -18,4 +18,7 @@ class StaticPagesController < ApplicationController
   
   def me
   end
+  
+  def metest
+  end
 end
